@@ -1,0 +1,16 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "description": "Packages Dynamus",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matheus da Silva Santos",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.3",
+    "angular-route": "^1.5.3",
+    "bootstrap": "^3.3.6"
+  }
+}

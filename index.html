@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html data-ng-app="AppTeste">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta content="IE=edge, chrome=1" http-equiv="X-UA-Compatible" />
+    <title>Dynamus</title>
+</head>
+
+<body>
+    <div>
+        <ul>
+            <li><a href="#/pagina1">Página 1</a></li>
+            <li><a href="#/pagina2">Página 2</a></li>
+            <li><a href="#/pagina3">Página 3</a></li>
+        </ul>
+    </div>
+    <div>
+          <h1>Teste</h1>
+    </div>
+
+    <div data-ng-view=""></div>
+
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/angular-route/angular-route.min.js"></script>    
+    <!-- Load app main script -->
+    <script src="app/app.js?v=2"></script>
+    <script src="app/controllers/paginasController.js"></script>
+</body>
+
+</html>
