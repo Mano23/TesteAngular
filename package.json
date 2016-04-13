@@ -12,5 +12,14 @@
     "angular": "^1.5.3",
     "angular-route": "^1.5.3",
     "bootstrap": "^3.3.6"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mano23/TesteAngular.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mano23/TesteAngular/issues"
+  },
+  "homepage": "https://github.com/Mano23/TesteAngular#readme"
 }

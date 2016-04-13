@@ -5,17 +5,17 @@ var serviceBase = 'http://localhost:8080/';
 app.config(function ($routeProvider) {
   
      $routeProvider.when("/pagina1", {
-        controller: "paginasController",
+        controller: "pagina1Controller",
         templateUrl: "/app/views/pagina1.html"
     });
 
     $routeProvider.when("/pagina2", {
-        controller: "paginasController",
+        controller: "pagina2Controller",
         templateUrl: "/app/views/pagina2.html"
     });
 
     $routeProvider.when("/pagina3", {
-        controller: "paginasController",
+        controller: "pagina3Controller",
         templateUrl: "/app/views/pagina3.html"
     });
     
